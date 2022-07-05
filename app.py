@@ -104,7 +104,6 @@ x_train=np.reshape(x_train, (x_train.shape[0],x_train.shape[1],1))
 # model.add(Dense(1))
 # model.compile(optimizer='adam',loss='mean_squared_error')
 #model.fit(x_train,y_train,batch_size=1,epochs=6)
-@st.cache(allow_output_mutation=True)
 model = load_model('keras_model.h5')
 
 #Testing the modal on data
