@@ -4,4 +4,4 @@ matplotlib-inline==0.1.3
 numpy==1.21.6
 pandas==1.3.5
 streamlit==1.10.0
-yfinance 0.1.72
+yfinance
